@@ -13,16 +13,23 @@
 
 ## 🌟 Why This Skill Exists / 为什么需要这个 Skill
 
-In *"How to be more ambitious: A tutorial for humans with models"*, Anthropic's Felix Rieseberg outlines why most humans underutilize AI models and how to break through self-efficacy limits across **Altitude**, **Depth**, **Range**, and **Outside Judge**.
+> 如今大家都是让 AI 替自己写 Prompt，但未经调教的 AI 默认只会堆砌空洞人设和套话，写出看似专业实则平庸的提示词。  
+> Today, most people ask an AI to write their prompts, but an unconstrained AI defaults to superficial personas and generic fluff—producing prompts that look articulate but remain thoroughly mediocre.
+> 
+> 你根本不知道 AI 写的 Prompt 是否真的管用，下游模型依然被锁死在极低的性能天花板里。  
+> You have no way of verifying whether the generated prompt actually improves outcomes, leaving your target model trapped far below its theoretical limits.
+
+In *"How to be more ambitious: A tutorial for humans with models"*, Anthropic's Felix Rieseberg outlines why most humans underutilize AI models and how to break through self-efficacy limits across **Altitude, Depth, Range, and Outside Judge**.
 
 **Ambitious Skill (v2.0)** operationalizes that philosophy into a reusable meta-skill for **any LLM, Coding Agent, or Chat Environment**:
-1. **Altitude (Verb Reframing & Oracle Anchoring)**: Replaces static noun tasks ("build a deck/model") with dynamic causal mechanisms anchored to the theoretical **Oracle Upper Bound**.
+
+1. **Altitude (Verb Reframing & Oracle Anchoring)**: Replaces static noun tasks ("build a deck/model") with dynamic causal mechanisms anchored to the theoretical Oracle Upper Bound.
 2. **Depth (Raw Substrates & Zero-DoF Priors)**: Forbids stopping at pre-digested summary tables; forces models to extract signals directly from raw substrates (trees, sequences, ASTs, tick logs, primary axioms) using parameter-free structural operators.
-3. **Range (Orthogonal Dialectical Crew — Methods Over Roleplay)**: Bans theatrical persona roleplay. Organizes cross-disciplinary specialists into a dialectical triad: **Forensic Diagnostician × Generative Architect × Complexity Compressor**.
+3. **Range (Orthogonal Dialectical Crew — Methods Over Roleplay)**: Bans theatrical persona roleplay. Organizes cross-disciplinary specialists into a dialectical triad: *Forensic Diagnostician × Generative Architect × Complexity Compressor*.
 4. **Cognitive Prosthetics (Making Ordinary Models Perform Like Frontier Models)**:
    - `<banned_lazy_defaults>`: Prunes high-probability mediocre textbook answers.
    - `<micro_example_grounding>`: Forces step-by-step verification on a concrete $N=3$ numerical/structural micro-example before scaling up.
-5. **Dual-Mode Outside Judge**: Enforces a **4-Stage Out-of-Sample Ablation & Rollback Gate** for coding agents, or a **3-Pass Adversarial Red-Team Loop** for chat models.
+5. **Dual-Mode Outside Judge**: Enforces a 4-Stage Out-of-Sample Ablation & Rollback Gate for coding agents, or a 3-Pass Adversarial Red-Team Loop for chat models.
 
 ---
 
