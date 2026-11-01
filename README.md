@@ -1,4 +1,4 @@
-# Ambitious Prompt Architect
+# ambitious-skill
 
 [![Agent Skill](https://img.shields.io/badge/Agent-Skill-blue.svg)](https://github.com/Quincicode/ambitious-prompt-architect)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -15,7 +15,7 @@
 
 In *"How to be more ambitious: A tutorial for humans with models"*, Anthropic's Felix Rieseberg outlines why most humans underutilize AI models and how to break through self-efficacy limits across **Altitude**, **Depth**, **Range**, and **Outside Judge**.
 
-**Ambitious Prompt Architect (v2.0)** operationalizes that philosophy into a reusable meta-skill for **any LLM, Coding Agent, or Chat Environment**:
+**Ambitious Skill (v2.0)** operationalizes that philosophy into a reusable meta-skill for **any LLM, Coding Agent, or Chat Environment**:
 1. **Altitude (Verb Reframing & Oracle Anchoring)**: Replaces static noun tasks ("build a deck/model") with dynamic causal mechanisms anchored to the theoretical **Oracle Upper Bound**.
 2. **Depth (Raw Substrates & Zero-DoF Priors)**: Forbids stopping at pre-digested summary tables; forces models to extract signals directly from raw substrates (trees, sequences, ASTs, tick logs, primary axioms) using parameter-free structural operators.
 3. **Range (Orthogonal Dialectical Crew — Methods Over Roleplay)**: Bans theatrical persona roleplay. Organizes cross-disciplinary specialists into a dialectical triad: **Forensic Diagnostician × Generative Architect × Complexity Compressor**.
@@ -40,7 +40,7 @@ In *"How to be more ambitious: A tutorial for humans with models"*, Anthropic's 
 ## 📁 Repository Structure / 仓库目录
 
 ```text
-ambitious-prompt-architect/
+ambitious-skill/
 ├── SKILL.md                          # Core Agent Skill definition / 核心技能定义
 ├── README.md                         # Project overview & guide / 项目主页与指南
 └── LICENSE                           # MIT License / 开源协议
@@ -52,28 +52,28 @@ ambitious-prompt-architect/
 
 ### 1. Claude Code / Agent Skills CLI
 ```bash
-mkdir -p ~/.claude/skills/ambitious-prompt-architect
+mkdir -p ~/.claude/skills/ambitious-skill
 curl -fsSL https://raw.githubusercontent.com/Quincicode/ambitious-prompt-architect/main/SKILL.md \
-  -o ~/.claude/skills/ambitious-prompt-architect/SKILL.md
+  -o ~/.claude/skills/ambitious-skill/SKILL.md
 ```
 
 ### 2. Cursor / Windsurf / Cline
 ```bash
 mkdir -p .cursor/rules
 curl -fsSL https://raw.githubusercontent.com/Quincicode/ambitious-prompt-architect/main/SKILL.md \
-  -o .cursor/rules/ambitious-prompt-architect.mdc
+  -o .cursor/rules/ambitious-skill.mdc
 ```
 
 ### 3. Google Antigravity / Custom Agent
 Place the directory directly into your agent skills path:
 ```bash
-cp -r ambitious-prompt-architect path/to/skills/
+cp -r ambitious-skill path/to/skills/
 ```
 
 ### 4. ChatGPT / Gemini / Claude Web / Any LLM
 Attach `SKILL.md` directly into your chat or save it as a Custom Instruction / System Prompt / Gem / Project instruction, then invoke with:
 ```text
-@ambitious-prompt-architect
+@ambitious-skill
 ```
 
 ---
@@ -83,7 +83,7 @@ Attach `SKILL.md` directly into your chat or save it as a Custom Instruction / S
 ### Option A: Direct Trigger / 直接调用
 When interacting with your AI agent or frontier model, invoke the skill:
 ```text
-"Use ambitious-prompt-architect to analyze our current prediction pipeline.
+"Use ambitious-skill to analyze our current prediction pipeline.
 We are currently capturing 55% of the theoretical Oracle upper bound under a strict ≤6 trainable parameter cap.
 Diagnose the 4D bottlenecks and generate both the Reconnaissance Prompt and Master Breakthrough Prompt."
 ```

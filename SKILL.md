@@ -1,5 +1,5 @@
 ---
-name: ambitious-prompt-architect
+name: ambitious-skill
 description: Design world-class, high-ambition prompts and execution protocols across any domain (science, coding, math, strategy, writing) using Altitude, Depth, Range, Outside Judge, and Cognitive Prosthetics. Always use when the user asks to write, optimize, upgrade, or audit a prompt, push any model from mediocre outputs to theoretical limits, or make ordinary models perform like frontier reasoning models.
 ---
 
