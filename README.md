@@ -43,9 +43,7 @@ In *"How to be more ambitious: A tutorial for humans with models"*, Anthropic's 
 ambitious-prompt-architect/
 ├── SKILL.md                          # Core Agent Skill definition / 核心技能定义
 ├── README.md                         # Project overview & guide / 项目主页与指南
-├── LICENSE                           # MIT License / 开源协议
-└── examples/
-    └── h9n2-nature-breakthrough.md   # Practical case: H9N2 viral evolution breakthrough / 实战范例
+└── LICENSE                           # MIT License / 开源协议
 ```
 
 ---
@@ -95,12 +93,6 @@ When exploring complex legacy codebases, use the compact reconnaissance prompt f
 ```text
 "I want a deeper, structurally superior version of this task, not a bigger or more verbose one. Before proposing any new solution or writing main code, answer four questions using concrete data or logic: (1) What exact proportion of the gap between our current baseline and the theoretical optimum comes from structural representation limits versus execution error? (2) What raw underlying signals or invariants would top specialists in [Field A] and [Field B] extract here that standard approaches ignore? (3) What parameter-free operator or structural mechanism captures those signals without adding bloat? (4) What concrete micro-example (N=3) and falsification test will prove the new mechanism works? Output this forensic diagnosis first."
 ```
-
----
-
-## 🔬 Real-World Case Study / 实战范例
-
-See [`examples/h9n2-nature-breakthrough.md`](./examples/h9n2-nature-breakthrough.md) for a complete walkthrough of how this skill diagnosed and upgraded an avian influenza (H9N2) evolutionary forecasting pipeline under a strict $\le 6$ trainable parameter budget and zero future leakage constraint.
 
 ---
 
