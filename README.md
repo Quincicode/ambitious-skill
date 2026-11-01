@@ -1,6 +1,6 @@
 # ambitious-skill
 
-[![Agent Skill](https://img.shields.io/badge/Agent-Skill-blue.svg)](https://github.com/Quincicode/ambitious-prompt-architect)
+[![Agent Skill](https://img.shields.io/badge/Agent-Skill-blue.svg)](https://github.com/Quincicode/ambitious-skill)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Framework](https://img.shields.io/badge/Compatible-Claude%20Code%20%7C%20Cursor%20%7C%20Antigravity-success.svg)](SKILL.md)
 
@@ -60,14 +60,14 @@ ambitious-skill/
 ### 1. Claude Code / Agent Skills CLI
 ```bash
 mkdir -p ~/.claude/skills/ambitious-skill
-curl -fsSL https://raw.githubusercontent.com/Quincicode/ambitious-prompt-architect/main/SKILL.md \
+curl -fsSL https://raw.githubusercontent.com/Quincicode/ambitious-skill/main/SKILL.md \
   -o ~/.claude/skills/ambitious-skill/SKILL.md
 ```
 
 ### 2. Cursor / Windsurf / Cline
 ```bash
 mkdir -p .cursor/rules
-curl -fsSL https://raw.githubusercontent.com/Quincicode/ambitious-prompt-architect/main/SKILL.md \
+curl -fsSL https://raw.githubusercontent.com/Quincicode/ambitious-skill/main/SKILL.md \
   -o .cursor/rules/ambitious-skill.mdc
 ```
 
